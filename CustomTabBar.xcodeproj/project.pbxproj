@@ -15,6 +15,7 @@
 		B73FC4C725365D7300802093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73FC4C525365D7300802093 /* LaunchScreen.storyboard */; };
 		B73FC4D225365D7400802093 /* CustomTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FC4D125365D7400802093 /* CustomTabBarTests.swift */; };
 		B73FC4DD25365D7400802093 /* CustomTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FC4DC25365D7400802093 /* CustomTabBarUITests.swift */; };
+		B73FC4EE2536601500802093 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FC4ED2536601500802093 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B73FC4D825365D7400802093 /* CustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73FC4DC25365D7400802093 /* CustomTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarUITests.swift; sourceTree = "<group>"; };
 		B73FC4DE25365D7400802093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73FC4ED2536601500802093 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B73FC4BA25365D7000802093 /* AppDelegate.swift */,
 				B73FC4BC25365D7000802093 /* SceneDelegate.swift */,
 				B73FC4BE25365D7000802093 /* ViewController.swift */,
+				B73FC4ED2536601500802093 /* CustomTabBar.swift */,
 				B73FC4C025365D7100802093 /* Main.storyboard */,
 				B73FC4C325365D7300802093 /* Assets.xcassets */,
 				B73FC4C525365D7300802093 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73FC4EE2536601500802093 /* CustomTabBar.swift in Sources */,
 				B73FC4BF25365D7000802093 /* ViewController.swift in Sources */,
 				B73FC4BB25365D7000802093 /* AppDelegate.swift in Sources */,
 				B73FC4BD25365D7000802093 /* SceneDelegate.swift in Sources */,
