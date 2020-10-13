@@ -45,7 +45,7 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qG7-f5-UoF" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I5L-Jx-u5D">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I5L-Jx-u5D" customClass="CustomTabBar" customModule="CustomTabBar" customModuleProvider="target">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -59,6 +59,11 @@
             <point key="canvasLocation" x="101" y="-240"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="I5L-Jx-u5D">
+            <size key="intrinsicContentSize" width="-1" height="83"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
