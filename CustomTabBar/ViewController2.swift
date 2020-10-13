@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  CustomTabBar
 //
 //  Created by Brendon Cecilio on 10/13/20.
@@ -7,8 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class ViewController2: UIViewController {
+
     @IBOutlet var button: UIButton!
     
     override func viewDidLoad() {
@@ -22,6 +22,4 @@ class ViewController: UIViewController {
         button.clipsToBounds = true
         button.setImage(UIImage(named:"thumbsUp.png"), for: .normal)
     }
-    
 }
-
