@@ -22,6 +22,22 @@ class ViewController: UIViewController {
         button.clipsToBounds = true
         button.setImage(UIImage(named:"thumbsUp.png"), for: .normal)
     }
+
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        guard let menuVC = storyboard?.instantiateViewController(identifier: "MenuController") else {
+            fatalError("could not insantiate menuVC")
+        }
+        present(menuVC, animated: true)
+    }
     
+    
+//    @IBAction func menuButtonPressed(_ sender: UIButton) {
+//
+//        guard let menuVC = storyboard?.instantiateViewController(identifier: "MenuController") else {
+//            fatalError("could not insantiate menuVC")
+//        }
+//        present(menuVC, animated: true)
+//    }
 }
 
