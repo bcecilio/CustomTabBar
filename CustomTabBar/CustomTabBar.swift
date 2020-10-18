@@ -7,19 +7,14 @@
 
 import UIKit
 
-enum TabbarItem: Int {
-    case firstVC = 101
-    case secondVC = 102
-}
-
 @IBDesignable class CustomTabBar: UITabBar {
-
+    
     private var shapeLayer: CALayer?
     
     override func draw(_ rect: CGRect) {
         self.addShape()
     }
-
+    
     private func addShape() {
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = createPath()
@@ -56,17 +51,17 @@ enum TabbarItem: Int {
         
         return path.cgPath
     }
-//    func colorOutline() -> CGPath {
-//        let height: CGFloat = 50.0
-//        let path = UIBezierPath()
-//        let centerWidth = self.frame.width / 2
-//        
-//        path.move(to: CGPoint(x: 0, y: 0)) // start top left of frame
-//        path.addLine(to: CGPoint(x: (centerWidth - height * 2), y: 0))
-//        // first curve down
-//        path.addCurve(to: CGPoint(x: centerWidth, y: height), controlPoint1: CGPoint(x: (centerWidth - 30), y: 0), controlPoint2: CGPoint(x: (centerWidth - 35), y: height))
-//        path.close()
-//        
-//        return path.cgPath
-//    }
+    //    func colorOutline() -> CGPath {
+    //        let height: CGFloat = 50.0
+    //        let path = UIBezierPath()
+    //        let centerWidth = self.frame.width / 2
+    //
+    //        path.move(to: CGPoint(x: 0, y: 0)) // start top left of frame
+    //        path.addLine(to: CGPoint(x: (centerWidth - height * 2), y: 0))
+    //        // first curve down
+    //        path.addCurve(to: CGPoint(x: centerWidth, y: height), controlPoint1: CGPoint(x: (centerWidth - 30), y: 0), controlPoint2: CGPoint(x: (centerWidth - 35), y: height))
+    //        path.close()
+    //
+    //        return path.cgPath
+    //    }
 }

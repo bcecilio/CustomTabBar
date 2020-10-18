@@ -149,10 +149,10 @@
             </objects>
             <point key="canvasLocation" x="-1078.2608695652175" y="-759.375"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar Controller-->
         <scene sceneID="6DY-Yc-jsp">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qG7-f5-UoF" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qG7-f5-UoF" customClass="CustomTabBarController" customModule="CustomTabBar" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I5L-Jx-u5D" customClass="CustomTabBar" customModule="CustomTabBar" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
