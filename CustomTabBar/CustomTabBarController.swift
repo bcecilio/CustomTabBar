@@ -30,7 +30,7 @@ class CustomTabBarController: UITabBarController {
 
     private func animate(_ imageView: UIImageView) {
         UIView.animate(withDuration: 0.1, animations: {
-            imageView.transform = CGAffineTransform(scaleX: 1.25, y: 1.25)
+            imageView.transform = CGAffineTransform(scaleX: 0.25, y: 0.25)
         }) { _ in
             UIView.animate(withDuration: 0.25, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 3.0, options: .curveEaseInOut, animations: {
                 imageView.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
