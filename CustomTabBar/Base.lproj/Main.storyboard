@@ -64,7 +64,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="star" catalog="system" id="4aC-C7-Dlf"/>
+                    <tabBarItem key="tabBarItem" image="star.fill" catalog="system" id="4aC-C7-Dlf"/>
                     <connections>
                         <outlet property="button" destination="rOx-4A-lAx" id="mNC-sb-hCl"/>
                     </connections>
@@ -186,7 +186,7 @@
     <resources>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="plus" catalog="system" width="128" height="113"/>
-        <image name="star" catalog="system" width="128" height="116"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
