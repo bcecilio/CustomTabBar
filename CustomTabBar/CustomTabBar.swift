@@ -7,6 +7,11 @@
 
 import UIKit
 
+enum TabbarItem: Int {
+    case firstVC = 101
+    case secondVC = 102
+}
+
 @IBDesignable class CustomTabBar: UITabBar {
 
     private var shapeLayer: CALayer?
@@ -51,7 +56,6 @@ import UIKit
         
         return path.cgPath
     }
-    
 //    func colorOutline() -> CGPath {
 //        let height: CGFloat = 50.0
 //        let path = UIBezierPath()

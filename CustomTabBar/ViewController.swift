@@ -30,14 +30,5 @@ class ViewController: UIViewController {
         }
         present(menuVC, animated: true)
     }
-    
-    
-//    @IBAction func menuButtonPressed(_ sender: UIButton) {
-//
-//        guard let menuVC = storyboard?.instantiateViewController(identifier: "MenuController") else {
-//            fatalError("could not insantiate menuVC")
-//        }
-//        present(menuVC, animated: true)
-//    }
 }
 
