@@ -24,12 +24,13 @@ class ViewController: UIViewController {
         button.setImage(UIImage(named:"thumbsUp.png"), for: .normal)
     }
 
-    @IBAction func buttonPressed(_ sender: UIButton) {
+    @IBAction func buttonPressed(_ sender: UIButton!) {
         
         guard let menuVC = storyboard?.instantiateViewController(identifier: "MenuController") else {
             fatalError("could not insantiate menuVC")
         }
         present(menuVC, animated: true)
+        print("button pressed")
     }
 }
 

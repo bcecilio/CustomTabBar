@@ -56,7 +56,6 @@
                                 <state key="normal" image="plus" catalog="system"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lAy-j2-Qps"/>
-                                    <action selector="menuButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="9EZ-Ri-Dyf"/>
                                     <segue destination="dLX-eN-uai" kind="show" id="cy4-5Q-6ZS"/>
                                 </connections>
                             </button>
