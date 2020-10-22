@@ -18,6 +18,8 @@
 		B73FC4EE2536601500802093 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FC4ED2536601500802093 /* CustomTabBar.swift */; };
 		B73FC4F625366C2400802093 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FC4F525366C2400802093 /* ViewController2.swift */; };
 		B73FC4FB2536805A00802093 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FC4FA2536805A00802093 /* CustomTabBarController.swift */; };
+		B75F6F1A2541EDDE006FD62E /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F6F192541EDDE006FD62E /* LaunchController.swift */; };
+		B75F6F1F2541EDF4006FD62E /* launchScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = B75F6F1E2541EDF4006FD62E /* launchScreen.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		B73FC4ED2536601500802093 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		B73FC4F525366C2400802093 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		B73FC4FA2536805A00802093 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		B75F6F192541EDDE006FD62E /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		B75F6F1E2541EDF4006FD62E /* launchScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launchScreen.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +109,11 @@
 		B73FC4B925365D7000802093 /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				B75F6F1E2541EDF4006FD62E /* launchScreen.json */,
 				B73FC4BA25365D7000802093 /* AppDelegate.swift */,
 				B73FC4BC25365D7000802093 /* SceneDelegate.swift */,
 				B73FC4BE25365D7000802093 /* ViewController.swift */,
+				B75F6F192541EDDE006FD62E /* LaunchController.swift */,
 				B73FC4F525366C2400802093 /* ViewController2.swift */,
 				B73FC4FA2536805A00802093 /* CustomTabBarController.swift */,
 				B73FC4ED2536601500802093 /* CustomTabBar.swift */,
@@ -240,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75F6F1F2541EDF4006FD62E /* launchScreen.json in Resources */,
 				B73FC4C725365D7300802093 /* LaunchScreen.storyboard in Resources */,
 				B73FC4C425365D7300802093 /* Assets.xcassets in Resources */,
 				B73FC4C225365D7100802093 /* Main.storyboard in Resources */,
@@ -272,6 +279,7 @@
 				B73FC4BF25365D7000802093 /* ViewController.swift in Sources */,
 				B73FC4BB25365D7000802093 /* AppDelegate.swift in Sources */,
 				B73FC4FB2536805A00802093 /* CustomTabBarController.swift in Sources */,
+				B75F6F1A2541EDDE006FD62E /* LaunchController.swift in Sources */,
 				B73FC4BD25365D7000802093 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
