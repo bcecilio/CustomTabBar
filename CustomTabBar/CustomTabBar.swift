@@ -20,6 +20,7 @@ import UIKit
         shapeLayer.path = createPath()
         shapeLayer.strokeColor = UIColor.systemGray.cgColor
         shapeLayer.fillColor = UIColor.white.cgColor
+        // shapeLayer.fillColor = UIColor.black.cgColor
         shapeLayer.lineWidth = 1.0
         
         if let oldShapeLayer = self.shapeLayer {
@@ -51,6 +52,7 @@ import UIKit
         
         return path.cgPath
     }
+    
     //    func colorOutline() -> CGPath {
     //        let height: CGFloat = 50.0
     //        let path = UIBezierPath()

@@ -6,18 +6,27 @@
 //
 
 import UIKit
+import Lottie
 
 class LaunchController: UIViewController {
-    
-    @IBOutlet private var imageView: UIImageView!
 
+    @IBOutlet var animationView2: AnimationView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        animate()
     }
-    
+
     private func animate() {
-        
+        animationView2 = .init(name: "launchScreen")
+        animationView2.frame = view.bounds
+        animationView2.animationSpeed = 1
+        animationView2.loopMode = .playOnce
+        view.addSubview(animationView2)
+        animationView2.play()
+        guard let mainVC = storyboard?.instantiateViewController(identifier: "CustomTabBarController") else {
+            fatalError("could not instantiate VC")
+        }
+        UIViewController.resetWindow(mainVC)
     }
 }
