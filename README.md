@@ -83,4 +83,4 @@ class CustomTabBarController: UITabBarController {
 }
 ```
 
-![gif](Assets/Nov-17-2020 09-26-37.gif)
+![gif](Assets/animation1.gif)
