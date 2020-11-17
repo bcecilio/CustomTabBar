@@ -33,7 +33,7 @@ This project was built to understand how to make a custom tab bar using UIKit. U
 
 ### Adding animations to our tab bar icons:
 
-Pretty self explanitory within the code. Using an enum I gave my TabBar items tags, allowing me to switch on them within the didSelect function. There my animate function is called once the tab item is selected. Using unique tags also allows for unique calls for each item. For example you can make 2 different animation for each item you have in your TabBar. 
+Pretty self explanitory within the code. Using an enum I gave my TabBar items tags, allowing me to switch on them within the didSelect function. There my animate function is called once the tabbar item is selected. Using unique tags also allows for unique calls for each item. For example you can make 2 different animations for each item you have in your TabBar. 
 
 ``` swift
 enum TabbarItemTag: Int {
@@ -82,3 +82,5 @@ class CustomTabBarController: UITabBarController {
     }
 }
 ```
+
+[![gif](Assets/Nov-17-2020 09-26-37.gif)
